@@ -5,7 +5,7 @@
             "driver": "SQLite",
             "name": "sqlitelab",
             "group": "mysqllab",
-            "database": "bais_sqlite_lab_db"
+            "database": "bais_sqlite_lab.db"
         }
     ],
     "sqltools.useNodeRuntime": true
