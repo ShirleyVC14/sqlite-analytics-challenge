@@ -40,3 +40,13 @@ JOIN (
     ON e.department_id = dept_avg.department_id
 WHERE e.salary > dept_avg.avg_salary
 ORDER BY d.name, e.salary DESC;
+
+-- TASK 4: Cities with Most Loyal (Gold) Customers
+
+SELECT 
+    city,
+    COUNT(*) AS gold_customer_count
+FROM customers
+WHERE loyalty_level = 'Gold'
+GROUP BY city
+ORDER BY gold_customer_count DESC, city;

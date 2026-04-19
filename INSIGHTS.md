@@ -14,3 +14,8 @@
 - Department with highest average salary: IT
 - Employees above their department average are mostly in: IT or Finance
 - Salary variation insight: There is noticeable variation in salaries within departments, with a subset of employees earning significantly more than the department average, suggesting unequal but structured pay distribution.
+
+## Task 4: Loyalty by City
+- City with most Gold customers: Tampa (4)
+- Cities with lowest loyalty concentration: All other cities with 0 Gold customers (or no significant Gold representation)
+- Loyalty distribution insight: Customer loyalty is heavily concentrated in a single city (Tampa), while other cities have little to no Gold-level customers, indicating an uneven geographic distribution of high-value customers.
