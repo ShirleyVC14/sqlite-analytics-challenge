@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "sqlitelab",
+            "group": "mysqllab",
+            "database": "bais_sqlite_lab_db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
